@@ -127,7 +127,7 @@ body{
 }
 .price-box .top .popular{
     right: -5px;
-    top: 15%;
+    top: 20%;
     transform:rotate(45deg);
     overflow: hidden;
 }
