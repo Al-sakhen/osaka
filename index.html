@@ -16,7 +16,47 @@
 
 </head>
 <body>
+  <!-- scroll to top -->
+  <a class="scroll-to-top  text-white px-3 py-2 position-fixed rounded-circle d-none" href="#">
+    <i class="fas fa-chevron-up"></i>
+  </a>
 
+  <!-- start  options -->
+  <div class="options  position-fixed d-flex ">
+    <div class="options-slide ps-2 pb-3 bg-danger bg-opacity-75">
+      <div class="color-div">      
+        <h5  class="text-white px-1">choose your color:</h5>
+        <ul class="d-flex list-unstyled justify-content-center">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="img-div">
+        <h5  class="text-white px-1">choose your image:</h5>
+        <div class="row m-0">
+          <div class="col-3">
+            <img src="assets/img/background/1.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-3">
+            <img src="assets/img/background/2.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-3">
+            <img src="assets/img/background/3.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-3">
+            <img src="assets/img/background/4.jpg" class="img-fluid" alt="">
+          </div>
+        </div>      
+      </div>
+    </div>
+  <!-- end  options -->
+
+
+    <i class="fas fa-sliders-h p-2 rounded-circle bg-black "></i>    
+  </div>
     <!-- home section -->
     
     <section class="home    d-none d-sm-none d-md-block" id="home">
@@ -29,23 +69,21 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">      
               <li class="nav-item">
-                <a class="nav-link text-uppercase text-mainColor" href="#">home</a>
+                <a class="nav-link text-uppercase text-mainColor active" href="#">home</a>
               </li>             
               <li class="nav-item">
-                <a class="nav-link text-uppercase" href="#">about</a>
+                <a class="nav-link text-uppercase " href="#">about</a>
               </li>       
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="#">services</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link text-uppercase" href="#">portfolio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-uppercase" href="#">price</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-uppercase" href="#">clients</a>
-              </li>               
-              <li class="nav-item">
-                <a class="nav-link text-uppercase" href="#">blog</a>
-              </li>
+              </li>              
+              
               <li class="nav-item">
                 <a class="nav-link text-uppercase" href="#">contact</a>
               </li>
@@ -64,7 +102,7 @@
                         <i class="fab fa-youtube rounded-circle p-2"></i>
                         <i class="fab fa-google rounded-circle p-2"></i>
                     </div>
-                    <a href="#" class="text-mainColor text-decoration-none fs-4 mt-3 d-block">view portfolio</a>
+                    <a href="#" class="text-mainColor text-decoration-none fs-4 mt-3 d-inline-block">view portfolio</a>
               </div>
         </header>
     </section>
@@ -119,7 +157,7 @@
           <a href="#" class="text-mainColor text-decoration-none fs-4 mt-3 d-block mb-3">view portfolio</a>
           </div>
     
-          <img src="assets/img/header/me.jpg" alt="" class="col-sm-6  img-fluid ">
+          <img src="assets/img/header/me.jpg" alt="" class="sm-image col-sm-6  img-fluid ">
     
         </div>
       </div>
@@ -322,7 +360,7 @@
                   <div class="top bg-dark d-flex flex-column  align-items-center pt-4 card-header">
                     <h3 class="text-white text-uppercase fw-bolder">free</h3>
                     <span class="box-line text-white my-2"></span>
-                    <p class="text-white h4">$<span class="pri size h1 fw-bold">0</span></p>
+                    <p class="text-white h4">$<span class="pri size fa-2x fw-bold">0</span></p>
                   </div>
                   <div class="bottom py-5 bg-white">
                     <ul class="price-info list-unstyled text-center text-capitalize ">
@@ -433,7 +471,6 @@
 
 
     <!-- start get in touch section -->
-
     <section class="get-in-touch bg-black py-5">
       <div class="ser-title position-relative d-flex justify-content-center align-items-center">
         <h2 class="position-absolute text-uppercase">contact</h2>

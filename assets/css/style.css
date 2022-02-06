@@ -8,6 +8,51 @@ body{
     background-image: url('../img/light_dot.jpg');
     /* height: 10000px; */
 }
+/* scroll top icon */
+.scroll-to-top{
+    bottom: 30px;
+    right: 50px;
+    z-index: 999;
+    background-color: var(--mainColor);    
+}
+
+/* options */
+.options ul li {
+    background-color: var(--mainColor) ;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+.options img{
+    width: 35px ;
+    height: 40px;;
+    cursor: pointer;
+
+}
+.options i{
+    height: 50px;
+    font-size: 30px;
+}
+.options .fas{
+    color: white;
+    border: 1px solid white;
+
+}
+.options .fas:hover{
+    cursor: pointer;
+}
+.options {
+    top: 30%;
+    left: 0;
+    z-index: 9999;
+}
+
+a:hover{
+    color: var(--mainColor);    
+}
+
+
 .home-nav {
     transition: .7s;
 }
@@ -15,7 +60,10 @@ body{
 .header{
     background-image:url('../img/header/me.jpg');
     background-size:cover;
-    background-position: center center;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
 }
 .header .icons , .sm-content .icons {
     width:18%;
@@ -35,6 +83,10 @@ body{
 /* .navbar-dark .navbar-nav .nav-link {
     color:var(--mainColor)
 } */
+
+.navbar-dark .navbar-nav .nav-link.active{
+    color:var(--mainColor);
+}
 .navbar-dark .navbar-nav li:first-child a{
     color: var(--mainColor);
 }
@@ -174,6 +226,7 @@ body{
     color: #fff;
 }
 /* end get in touch */
+
 
 
 
